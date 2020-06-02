@@ -349,7 +349,6 @@ if ($message == '/stats' || $message == '/stats@dicestatbot') {
 
 	sendMessage($chat_id, $display_string_start.$display_string, $stat_switcher_keyboard);
 
-	mysqli_free_result($stats);
 	mysqli_close($db);
 }
 
@@ -510,7 +509,6 @@ switch ($callback_data[0]) {
 
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
 
-		mysqli_free_result($stats);
 		mysqli_close($db);
 		break;
 
@@ -621,7 +619,6 @@ switch ($callback_data[0]) {
 
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
 
-		mysqli_free_result($stats);
 		mysqli_close($db);
 		break;
 
