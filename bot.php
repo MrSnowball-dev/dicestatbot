@@ -1328,6 +1328,5 @@ function leaveChat($chat_id) {
 	file_get_contents($GLOBALS['api'].'/leaveChat?chat_id='.$chat_id);
 }
 
-mysqli_close($db);
 echo "End script."
 ?>
