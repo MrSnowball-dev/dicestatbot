@@ -732,7 +732,6 @@ switch ($callback_data[0]) {
 		
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
 
-		mysqli_free_result($stats);
 		mysqli_close($db);
 		break;
 	
@@ -767,9 +766,6 @@ switch ($callback_data[0]) {
 		
 		Use buttons below or /mystats to get _your_ stats\!", $user_stat_switcher_keyboard);
 	
-		mysqli_free_result($user_global_stats);
-		mysqli_free_result($user_stats_for_chat);
-		mysqli_free_result($user_chats);
 		mysqli_close($db);
 		break;
 
@@ -804,9 +800,6 @@ switch ($callback_data[0]) {
 		
 		Use buttons below or /mystats to get _your_ stats\!", $user_stat_switcher_keyboard);
 	
-		mysqli_free_result($user_global_stats);
-		mysqli_free_result($user_stats_for_chat);
-		mysqli_free_result($user_chats);
 		mysqli_close($db);
 		break;
 
@@ -845,9 +838,6 @@ switch ($callback_data[0]) {
 		
 		Use buttons below or /mystats to get _your_ stats\!", $user_stat_switcher_keyboard);
 	
-		mysqli_free_result($user_global_stats);
-		mysqli_free_result($user_stats_for_chat);
-		mysqli_free_result($user_chats);
 		mysqli_close($db);
 		break;
 
