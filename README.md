@@ -1,5 +1,5 @@
 # dicestatbot
-A bot for counting 🎲, 🎯 and 🏀 plays in Telegram chats
+A bot for counting 🎲, 🎯, 🏀 and ⚽ plays in Telegram chats
 
 It is available in Telegram: [@dicestatbot](https://t.me/dicestatbot)
 
