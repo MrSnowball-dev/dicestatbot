@@ -416,8 +416,8 @@ if ($message == '/stats' || $message == '/stats@dicestatbot') {
 	$stat_switcher_keyboard = ['inline_keyboard' => [
 		[	['text' => '● 🎲 Throws ●', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
 		[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-		[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	]
-		// [	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+		[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+		[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
 	]];
 
 	sendMessage($chat_id, $display_string_start.$display_string, $stat_switcher_keyboard);
@@ -523,8 +523,8 @@ switch ($callback_data[0]) {
 		$stat_switcher_keyboard = ['inline_keyboard' => [
 			[	['text' => '● 🎲 Throws ●', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
 			[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	]
-			// [	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
 		]];
 
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
@@ -580,8 +580,8 @@ switch ($callback_data[0]) {
 		$stat_switcher_keyboard = ['inline_keyboard' => [
 			[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '● 🎲 Points ●', 'callback_data' => 'get_dice_win']	],
 			[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	]
-			// [	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
 		]];
 
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
@@ -637,8 +637,8 @@ switch ($callback_data[0]) {
 		$stat_switcher_keyboard = ['inline_keyboard' => [
 			[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
 			[	['text' => '● 🎯 Throws ●', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	]
-			// [	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
 		]];
 
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
@@ -694,8 +694,8 @@ switch ($callback_data[0]) {
 		$stat_switcher_keyboard = ['inline_keyboard' => [
 			[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
 			[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '● 🎯 Points ●', 'callback_data' => 'get_darts_win']		],
-			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	]
-			// [	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
 		]];
 
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
@@ -752,8 +752,8 @@ switch ($callback_data[0]) {
 		$stat_switcher_keyboard = ['inline_keyboard' => [
 			[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
 			[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-			[	['text' => '● 🏀 Throws ●', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	]
-			// [	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+			[	['text' => '● 🏀 Throws ●', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
 		]];
 		
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
@@ -810,8 +810,8 @@ switch ($callback_data[0]) {
 		$stat_switcher_keyboard = ['inline_keyboard' => [
 			[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
 			[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '● 🏀 Points ●', 'callback_data' => 'get_basket_win']	]
-			// [	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '● 🏀 Points ●', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
 		]];
 		
 		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
@@ -819,121 +819,121 @@ switch ($callback_data[0]) {
 		mysqli_close($db);
 		break;
 
-	// case 'get_football_throw':
-	// 	$info = json_decode(file_get_contents($GLOBALS['api'].'/getChat?chat_id='.$callback_chat_id), TRUE);
-	// 	$title = $info['result']['title'];
+	case 'get_football_throw':
+		$info = json_decode(file_get_contents($GLOBALS['api'].'/getChat?chat_id='.$callback_chat_id), TRUE);
+		$title = $info['result']['title'];
 
-	// 	$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
-	// 	mysqli_set_charset($db, 'utf8mb4');
-	// 	mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
-	// 	if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
-	// 		else echo "MySQL connect successful.\n";
+		$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
+		mysqli_set_charset($db, 'utf8mb4');
+		mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
+		if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
+			else echo "MySQL connect successful.\n";
 
-	// 	$query = mysqli_query($db, "SELECT * FROM football_stats WHERE chat_id=".$callback_chat_id." ORDER BY (football_1+football_2+football_3+football_4+football_5) DESC LIMIT 10");
-	// 	$stats = mysqli_fetch_all($query, MYSQLI_ASSOC);
+		$query = mysqli_query($db, "SELECT * FROM football_stats WHERE chat_id=".$callback_chat_id." ORDER BY (football_1+football_2+football_3+football_4+football_5) DESC LIMIT 10");
+		$stats = mysqli_fetch_all($query, MYSQLI_ASSOC);
 
-	// 	$display_string_start = "🏆 *Top ".count($stats)."* ⚽ players by _*kicks*_ for *".strtr($title, $markdownify_array)."*:\n───────────────────────\n";
-	// 	$display_string = "";
+		$display_string_start = "🏆 *Top ".count($stats)."* ⚽ players by _*kicks*_ for *".strtr($title, $markdownify_array)."*:\n───────────────────────\n";
+		$display_string = "";
 
-	// 	if (count($stats) == NULL) {
-	// 		$display_string .= "_No ⚽ plays registered_";
-	// 	} else {
-	// 		foreach ($stats as $key => $value) {
-	// 			$sum[$key] = $stats[$key]['football_1']+$stats[$key]['football_2']+$stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
-	// 			$goals[$key] = $stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
-	// 			$points_sum[$key] = $stats[$key]['football_3']+($stats[$key]['football_4']*2)+($stats[$key]['football_5']*3);
-	// 			$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$stats[$key]['user_id']), TRUE);
-	// 			$members[$key] = $member['result']['user']['first_name'];
-	// 			switch ($key) {
-	// 				case 0:
-	// 					$display_string .= "🥇*".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n";
-	// 					break;
+		if (count($stats) == NULL) {
+			$display_string .= "_No ⚽ plays registered_";
+		} else {
+			foreach ($stats as $key => $value) {
+				$sum[$key] = $stats[$key]['football_1']+$stats[$key]['football_2']+$stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
+				$goals[$key] = $stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
+				$points_sum[$key] = $stats[$key]['football_3']+($stats[$key]['football_4']*2)+($stats[$key]['football_5']*3);
+				$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$stats[$key]['user_id']), TRUE);
+				$members[$key] = $member['result']['user']['first_name'];
+				switch ($key) {
+					case 0:
+						$display_string .= "🥇*".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n";
+						break;
 	
-	// 				case 1:
-	// 					$display_string .= "🥈*".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n";
-	// 					break;
+					case 1:
+						$display_string .= "🥈*".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n";
+						break;
 					
-	// 				case 2:
-	// 					$display_string .= "🥉*".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n───────────────────────\n";
-	// 					break;
+					case 2:
+						$display_string .= "🥉*".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n───────────────────────\n";
+						break;
 					
-	// 				default:
-	// 					$display_string .= $key+1 ."\. *".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n";
-	// 					break;
-	// 			}
-	// 		}
-	// 	}
+					default:
+						$display_string .= $key+1 ."\. *".strtr($members[$key], $markdownify_array)."* \- *".$sum[$key]."* kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." corners\), *". $points_sum[$key] ."* total points\n";
+						break;
+				}
+			}
+		}
 		
 
-	// 	$stat_switcher_keyboard = ['inline_keyboard' => [
-	// 		[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
-	// 		[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-	// 		[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
-	// 		[	['text' => '● ⚽ Kicks ●', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
-	// 	]];
+		$stat_switcher_keyboard = ['inline_keyboard' => [
+			[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
+			[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
+			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '● ⚽ Kicks ●', 'callback_data' => 'get_football_throw'], ['text' => '⚽ Points', 'callback_data' => 'get_football_win']]
+		]];
 		
-	// 	updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
+		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
 
-	// 	mysqli_close($db);
-	// 	break;
+		mysqli_close($db);
+		break;
 
-	// case 'get_football_win':
-	// 	$info = json_decode(file_get_contents($GLOBALS['api'].'/getChat?chat_id='.$callback_chat_id), TRUE);
-	// 	$title = $info['result']['title'];
+	case 'get_football_win':
+		$info = json_decode(file_get_contents($GLOBALS['api'].'/getChat?chat_id='.$callback_chat_id), TRUE);
+		$title = $info['result']['title'];
 
-	// 	$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
-	// 	mysqli_set_charset($db, 'utf8mb4');
-	// 	mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
-	// 	if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
-	// 		else echo "MySQL connect successful.\n";
+		$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
+		mysqli_set_charset($db, 'utf8mb4');
+		mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
+		if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
+			else echo "MySQL connect successful.\n";
 
-	// 	$query = mysqli_query($db, "SELECT * FROM football_stats WHERE chat_id=".$callback_chat_id." ORDER BY football_3+(football_4*2)+(football_5*3) DESC LIMIT 10");
-	// 	$stats = mysqli_fetch_all($query, MYSQLI_ASSOC);
+		$query = mysqli_query($db, "SELECT * FROM football_stats WHERE chat_id=".$callback_chat_id." ORDER BY football_3+(football_4*2)+(football_5*3) DESC LIMIT 10");
+		$stats = mysqli_fetch_all($query, MYSQLI_ASSOC);
 
-	// 	$display_string_start = "🏆 *Top ".count($stats)."* ⚽ players by _*total points*_ for *".strtr($title, $markdownify_array)."*:\n───────────────────────\n";
-	// 	$display_string = "";
+		$display_string_start = "🏆 *Top ".count($stats)."* ⚽ players by _*total points*_ for *".strtr($title, $markdownify_array)."*:\n───────────────────────\n";
+		$display_string = "";
 
-	// 	if (count($stats) == NULL) {
-	// 		$display_string .= "_No ⚽ plays registered_";
-	// 	} else {
-	// 		foreach ($stats as $key => $value) {
-	// 			$sum[$key] = $stats[$key]['football_1']+$stats[$key]['football_2']+$stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
-	// 			$goals[$key] = $stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
-	// 			$points_sum[$key] = $stats[$key]['football_3']+($stats[$key]['football_4']*2)+($stats[$key]['football_5']*3);
-	// 			$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$stats[$key]['user_id']), TRUE);
-	// 			$members[$key] = $member['result']['user']['first_name'];
-	// 			switch ($key) {
-	// 				case 0:
-	// 					$display_string .= "🥇*".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-	// 					break;
+		if (count($stats) == NULL) {
+			$display_string .= "_No ⚽ plays registered_";
+		} else {
+			foreach ($stats as $key => $value) {
+				$sum[$key] = $stats[$key]['football_1']+$stats[$key]['football_2']+$stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
+				$goals[$key] = $stats[$key]['football_3']+$stats[$key]['football_4']+$stats[$key]['football_5'];
+				$points_sum[$key] = $stats[$key]['football_3']+($stats[$key]['football_4']*2)+($stats[$key]['football_5']*3);
+				$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$stats[$key]['user_id']), TRUE);
+				$members[$key] = $member['result']['user']['first_name'];
+				switch ($key) {
+					case 0:
+						$display_string .= "🥇*".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+						break;
 	
-	// 				case 1:
-	// 					$display_string .= "🥈*".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-	// 					break;
+					case 1:
+						$display_string .= "🥈*".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+						break;
 					
-	// 				case 2:
-	// 					$display_string .= "🥉*".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n───────────────────────\n";
-	// 					break;
+					case 2:
+						$display_string .= "🥉*".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n───────────────────────\n";
+						break;
 					
-	// 				default:
-	// 					$display_string .= $key+1 ."\. *".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-	// 					break;
-	// 			}
-	// 		}
-	// 	}
+					default:
+						$display_string .= $key+1 ."\. *".strtr($members[$key], $markdownify_array)."* \- ".$sum[$key]." kicks, ". $goals[$key] ." goals \(".$stats[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+						break;
+				}
+			}
+		}
 		
 
-	// 	$stat_switcher_keyboard = ['inline_keyboard' => [
-	// 		[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
-	// 		[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
-	// 		[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
-	// 		[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '● ⚽ Points ●', 'callback_data' => 'get_football_win']]
-	// 	]];
+		$stat_switcher_keyboard = ['inline_keyboard' => [
+			[	['text' => '🎲 Throws', 'callback_data' => 'get_dice_throw'], ['text' => '🎲 Points', 'callback_data' => 'get_dice_win']	],
+			[	['text' => '🎯 Throws', 'callback_data' => 'get_darts_throw'] , ['text' => '🎯 Points', 'callback_data' => 'get_darts_win']		],
+			[	['text' => '🏀 Throws', 'callback_data' => 'get_basket_throw'], ['text' => '🏀 Points', 'callback_data' => 'get_basket_win']	],
+			[	['text' => '⚽ Kicks', 'callback_data' => 'get_football_throw'], ['text' => '● ⚽ Points ●', 'callback_data' => 'get_football_win']]
+		]];
 		
-	// 	updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
+		updateMessage($callback_chat_id, $callback_message_id, $display_string_start.$display_string, $stat_switcher_keyboard);
 
-	// 	mysqli_close($db);
-	// 	break;
+		mysqli_close($db);
+		break;
 	
 	case 'get_user_dice':
 		$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
@@ -1041,43 +1041,43 @@ switch ($callback_data[0]) {
 		mysqli_close($db);
 		break;
 
-	// case 'get_user_football':
-	// 	$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
-	// 	mysqli_set_charset($db, 'utf8mb4');
-	// 	mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
-	// 	if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
-	// 		else echo "MySQL connect successful.\n";
+	case 'get_user_football':
+		$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
+		mysqli_set_charset($db, 'utf8mb4');
+		mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
+		if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
+			else echo "MySQL connect successful.\n";
 	
-	// 	$user_stats_for_chat = mysqli_fetch_all(mysqli_query($db, "SELECT * FROM football_stats WHERE chat_id=".$callback_chat_id." and user_id=".$callback_user_id), MYSQLI_ASSOC);
-	// 	$user_global_stats = mysqli_fetch_all(mysqli_query($db, "SELECT chat_id, user_id, SUM(football_1) as football_1, SUM(football_2) as football_2, SUM(football_3) as football_3, SUM(football_4) as football_4, SUM(football_5) as football_5 FROM `football_stats` WHERE user_id=".$callback_user_id), MYSQLI_ASSOC);
-	// 	$user_chats = mysqli_fetch_all(mysqli_query($db, "SELECT count(chat_id) as chat_count FROM football_stats WHERE user_id=".$callback_user_id), MYSQLI_ASSOC);
+		$user_stats_for_chat = mysqli_fetch_all(mysqli_query($db, "SELECT * FROM football_stats WHERE chat_id=".$callback_chat_id." and user_id=".$callback_user_id), MYSQLI_ASSOC);
+		$user_global_stats = mysqli_fetch_all(mysqli_query($db, "SELECT chat_id, user_id, SUM(football_1) as football_1, SUM(football_2) as football_2, SUM(football_3) as football_3, SUM(football_4) as football_4, SUM(football_5) as football_5 FROM `football_stats` WHERE user_id=".$callback_user_id), MYSQLI_ASSOC);
+		$user_chats = mysqli_fetch_all(mysqli_query($db, "SELECT count(chat_id) as chat_count FROM football_stats WHERE user_id=".$callback_user_id), MYSQLI_ASSOC);
 	
-	// 	$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$callback_user_id), TRUE);
+		$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$callback_user_id), TRUE);
 	
-	// 	$chat_throw_sum = $user_stats_for_chat[0]['football_1']+$user_stats_for_chat[0]['football_2']+$user_stats_for_chat[0]['football_3']+$user_stats_for_chat[0]['football_4']+$user_stats_for_chat[0]['football_5'];
-	// 	$chat_goals_sum = $user_stats_for_chat[0]['football_3']+$user_stats_for_chat[0]['football_4']+$user_stats_for_chat[0]['football_5'];
-	// 	$chat_misses = $user_stats_for_chat[0]['football_1']+$user_stats_for_chat[0]['football_2'];
-	// 	$chat_points_sum = $user_stats_for_chat[0]['football_3']+($user_stats_for_chat[0]['football_4']*2)+($user_stats_for_chat[0]['football_5']*3);
-	// 	$global_throw_sum = $user_global_stats[0]['football_1']+$user_global_stats[0]['football_2']+$user_global_stats[0]['football_3']+$user_global_stats[0]['football_4']+$user_global_stats[0]['football_5'];
-	// 	$global_goals_sum = $user_global_stats[0]['football_3']+$user_global_stats[0]['football_4']+$user_global_stats[0]['football_5'];
-	// 	$global_misses = $user_global_stats[0]['football_1']+$user_global_stats[0]['football_2'];
-	// 	$global_points_sum = $user_global_stats[0]['football_3']+($user_global_stats[0]['football_4']*2)+($user_global_stats[0]['football_5']*3);
+		$chat_throw_sum = $user_stats_for_chat[0]['football_1']+$user_stats_for_chat[0]['football_2']+$user_stats_for_chat[0]['football_3']+$user_stats_for_chat[0]['football_4']+$user_stats_for_chat[0]['football_5'];
+		$chat_goals_sum = $user_stats_for_chat[0]['football_3']+$user_stats_for_chat[0]['football_4']+$user_stats_for_chat[0]['football_5'];
+		$chat_misses = $user_stats_for_chat[0]['football_1']+$user_stats_for_chat[0]['football_2'];
+		$chat_points_sum = $user_stats_for_chat[0]['football_3']+($user_stats_for_chat[0]['football_4']*2)+($user_stats_for_chat[0]['football_5']*3);
+		$global_throw_sum = $user_global_stats[0]['football_1']+$user_global_stats[0]['football_2']+$user_global_stats[0]['football_3']+$user_global_stats[0]['football_4']+$user_global_stats[0]['football_5'];
+		$global_goals_sum = $user_global_stats[0]['football_3']+$user_global_stats[0]['football_4']+$user_global_stats[0]['football_5'];
+		$global_misses = $user_global_stats[0]['football_1']+$user_global_stats[0]['football_2'];
+		$global_points_sum = $user_global_stats[0]['football_3']+($user_global_stats[0]['football_4']*2)+($user_global_stats[0]['football_5']*3);
 
-	// 	$user_stat_switcher_keyboard = ['inline_keyboard' => [
-	// 		[['text' => '🎲 Stats', 'callback_data' => 'get_user_dice'], ['text' => '🎯 Stats', 'callback_data' => 'get_user_darts'], ['text' => '🏀 Stats', 'callback_data' => 'get_user_football'], ['text' => '● ⚽ Stats ●', 'callback_data' => 'get_user_football']]
-	// 	]];
+		$user_stat_switcher_keyboard = ['inline_keyboard' => [
+			[['text' => '🎲 Stats', 'callback_data' => 'get_user_dice'], ['text' => '🎯 Stats', 'callback_data' => 'get_user_darts'], ['text' => '🏀 Stats', 'callback_data' => 'get_user_football'], ['text' => '● ⚽ Stats ●', 'callback_data' => 'get_user_football']]
+		]];
 	
-	// 	updateMessage($callback_chat_id, $callback_message_id, "⚽ stats for *".strtr($member['result']['user']['first_name'], $markdownify_array)."*:\n
-	// 	_In this chat_:
-	// 	*". $chat_points_sum ."* total points: _*".$chat_goals_sum."*_ goals in _*".$chat_throw_sum."*_ kicks\n\t├─ _total misses_: ".$chat_misses."\n\t├─ _bar goals_\(1 point\): ".$user_stats_for_chat[0]['football_3']."\n\t├─ _straight goals \(2 points\)_: ".$user_stats_for_chat[0]['football_4']."\n\t└─ _nines \(3 points\)_: ".$user_stats_for_chat[0]['football_5']."
+		updateMessage($callback_chat_id, $callback_message_id, "⚽ stats for *".strtr($member['result']['user']['first_name'], $markdownify_array)."*:\n
+		_In this chat_:
+		*". $chat_points_sum ."* total points: _*".$chat_goals_sum."*_ goals in _*".$chat_throw_sum."*_ kicks\n\t├─ _total misses_: ".$chat_misses."\n\t├─ _bar goals_\(1 point\): ".$user_stats_for_chat[0]['football_3']."\n\t├─ _straight goals \(2 points\)_: ".$user_stats_for_chat[0]['football_4']."\n\t└─ _nines \(3 points\)_: ".$user_stats_for_chat[0]['football_5']."
 		
-	// 	_Globally_ \(in ".$user_chats[0]['chat_count']." chats\):
-	// 	*". $global_points_sum ."* total points: _*".$global_goals_sum."*_ goals in _*".$global_throw_sum."*_ kicks\n\t├─ _total misses_: ".$global_misses."\n\t├─ _bar goals_\(1 point\): ".$user_global_stats[0]['football_3']."\n\t├─ _straight goals \(2 points\)_: ".$user_global_stats[0]['football_4']."\n\t└─ _nines \(3 points\)_: ".$user_global_stats[0]['football_5']."
+		_Globally_ \(in ".$user_chats[0]['chat_count']." chats\):
+		*". $global_points_sum ."* total points: _*".$global_goals_sum."*_ goals in _*".$global_throw_sum."*_ kicks\n\t├─ _total misses_: ".$global_misses."\n\t├─ _bar goals_\(1 point\): ".$user_global_stats[0]['football_3']."\n\t├─ _straight goals \(2 points\)_: ".$user_global_stats[0]['football_4']."\n\t└─ _nines \(3 points\)_: ".$user_global_stats[0]['football_5']."
 		
-	// 	Use buttons below or /mystats to get _your_ stats\!", $user_stat_switcher_keyboard);
+		Use buttons below or /mystats to get _your_ stats\!", $user_stat_switcher_keyboard);
 	
-	// 	mysqli_close($db);
-	// 	break;
+		mysqli_close($db);
+		break;
 
 
 
@@ -1164,30 +1164,30 @@ switch ($callback_data[0]) {
 		
 		break;
 
-	// case 'init_football_tournament':
-	// 	$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$callback_user_id), TRUE);
+	case 'init_football_tournament':
+		$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$callback_user_id), TRUE);
 	
-	// 	if ($member['result']['status'] == 'creator' || $member['result']['status'] == 'administrator') {
-	// 		$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
-	// 		mysqli_set_charset($db, 'utf8mb4');
-	// 		mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
-	// 		if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
-	// 			else echo "MySQL connect successful.\n";
+		if ($member['result']['status'] == 'creator' || $member['result']['status'] == 'administrator') {
+			$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
+			mysqli_set_charset($db, 'utf8mb4');
+			mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
+			if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
+				else echo "MySQL connect successful.\n";
 
-	// 		mysqli_query($db, "update tournament_status set type='football' where chat_id=".$callback_chat_id);
+			mysqli_query($db, "update tournament_status set type='football' where chat_id=".$callback_chat_id);
 
-	// 		$tournament_keyboard = ['inline_keyboard' => [
-	// 			[['text' => '5', 'callback_data' => 'start_football_tournament:5'], ['text' => '10', 'callback_data' => 'start_football_tournament:10'], ['text' => '20', 'callback_data' => 'start_football_tournament:20'], ['text' => '30', 'callback_data' => 'start_football_tournament:30']]
-	// 		]];
-	// 		updateMessage($callback_chat_id, $callback_message_id, "Cool, a ⚽ tournament\!\n\nNow pick an amount of kicks:", $tournament_keyboard);
-	// 	} else {
-	// 		$tournament_keyboard = ['inline_keyboard' => [
-	// 			[['text' => '🎲', 'callback_data' => 'init_dice_tournament'], ['text' => '🎯', 'callback_data' => 'init_darts_tournament'], ['text' => '🏀', 'callback_data' => 'init_basket_tournament'], ['text' => '⚽', 'callback_data' => 'init_football_tournament']]
-	// 		]];
-	// 		updateMessage($callback_chat_id, $callback_message_id, $callback_message_text, $tournament_keyboard, "This action is for admins only.");
-	// 	}
+			$tournament_keyboard = ['inline_keyboard' => [
+				[['text' => '5', 'callback_data' => 'start_football_tournament:5'], ['text' => '10', 'callback_data' => 'start_football_tournament:10'], ['text' => '20', 'callback_data' => 'start_football_tournament:20'], ['text' => '30', 'callback_data' => 'start_football_tournament:30']]
+			]];
+			updateMessage($callback_chat_id, $callback_message_id, "Cool, a ⚽ tournament\!\n\nNow pick an amount of kicks:", $tournament_keyboard);
+		} else {
+			$tournament_keyboard = ['inline_keyboard' => [
+				[['text' => '🎲', 'callback_data' => 'init_dice_tournament'], ['text' => '🎯', 'callback_data' => 'init_darts_tournament'], ['text' => '🏀', 'callback_data' => 'init_basket_tournament'], ['text' => '⚽', 'callback_data' => 'init_football_tournament']]
+			]];
+			updateMessage($callback_chat_id, $callback_message_id, $callback_message_text, $tournament_keyboard, "This action is for admins only.");
+		}
 		
-	// 	break;
+		break;
 	
 	case 'start_dice_tournament':
 		$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$callback_user_id), TRUE);
@@ -1258,28 +1258,28 @@ switch ($callback_data[0]) {
 		
 		break;
 
-	// case 'start_football_tournament':
-	// 	$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$callback_user_id), TRUE);
+	case 'start_football_tournament':
+		$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$callback_chat_id.'&user_id='.$callback_user_id), TRUE);
 	
-	// 	if ($member['result']['status'] == 'creator' || $member['result']['status'] == 'administrator') {
-	// 		$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
-	// 		mysqli_set_charset($db, 'utf8mb4');
-	// 		mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
-	// 		if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
-	// 			else echo "MySQL connect successful.\n";
+		if ($member['result']['status'] == 'creator' || $member['result']['status'] == 'administrator') {
+			$db = mysqli_connect($db_host, $db_username, $db_pass, $db_schema);
+			mysqli_set_charset($db, 'utf8mb4');
+			mysqli_query($db, "SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci");
+			if (mysqli_connect_errno()) error_log("Failed to connect to MySQL: " . mysqli_connect_error());
+				else echo "MySQL connect successful.\n";
 
-	// 		mysqli_query($db, "update tournament_status set count=".$callback_data[1].", status='ongoing' where chat_id=".$callback_chat_id);
-	// 		mysqli_query($db, "delete from football_tournament_stats where chat_id=".$callback_chat_id);
+			mysqli_query($db, "update tournament_status set count=".$callback_data[1].", status='ongoing' where chat_id=".$callback_chat_id);
+			mysqli_query($db, "delete from football_tournament_stats where chat_id=".$callback_chat_id);
 			
-	// 		updateMessage($callback_chat_id, $callback_message_id, "Great\! You have started a ⚽ tournament with ".$callback_data[1]." kicks per player and it is now live\!\n\nTo stop a tournament, type /stop");
-	// 	} else {
-	// 		$tournament_keyboard = ['inline_keyboard' => [
-	// 			[['text' => '5', 'callback_data' => 'start_football_tournament:5'], ['text' => '10', 'callback_data' => 'start_football_tournament:10'], ['text' => '20', 'callback_data' => 'start_football_tournament:20'], ['text' => '30', 'callback_data' => 'start_football_tournament:30']]
-	// 		]];
-	// 		updateMessage($callback_chat_id, $callback_message_id, $callback_message_text, $tournament_keyboard, "This action is for admins only.");
-	// 	}
+			updateMessage($callback_chat_id, $callback_message_id, "Great\! You have started a ⚽ tournament with ".$callback_data[1]." kicks per player and it is now live\!\n\nTo stop a tournament, type /stop");
+		} else {
+			$tournament_keyboard = ['inline_keyboard' => [
+				[['text' => '5', 'callback_data' => 'start_football_tournament:5'], ['text' => '10', 'callback_data' => 'start_football_tournament:10'], ['text' => '20', 'callback_data' => 'start_football_tournament:20'], ['text' => '30', 'callback_data' => 'start_football_tournament:30']]
+			]];
+			updateMessage($callback_chat_id, $callback_message_id, $callback_message_text, $tournament_keyboard, "This action is for admins only.");
+		}
 		
-	// 	break;
+		break;
 		
 }
 
@@ -1416,45 +1416,45 @@ if ($message == '/stop' || $message == '/stop@dicestatbot') {
 					sendMessage($chat_id, $display_tournament_result_start.$display_tournament_result."\nCongratulations\!");
 					break;
 
-				// case 'football':
-				// 	$display_tournament_result_start = "_Horray\! The tournament has concluded\!_\n\nOut of ".$tournament[0]['count']." ⚽ kicks, our winners are:\n";
-				// 	$display_tournament_result = "";
+				case 'football':
+					$display_tournament_result_start = "_Horray\! The tournament has concluded\!_\n\nOut of ".$tournament[0]['count']." ⚽ kicks, our winners are:\n";
+					$display_tournament_result = "";
 	
-				// 	$tournament_winners = mysqli_fetch_all(mysqli_query($db, "select user_id, football_1, football_2, football_3, football_4, football_5 from football_tournament_stats where chat_id=".$chat_id." order by football_3+(football_4*2)+(football_5*3) DESC LIMIT 3"), MYSQLI_ASSOC);
+					$tournament_winners = mysqli_fetch_all(mysqli_query($db, "select user_id, football_1, football_2, football_3, football_4, football_5 from football_tournament_stats where chat_id=".$chat_id." order by football_3+(football_4*2)+(football_5*3) DESC LIMIT 3"), MYSQLI_ASSOC);
 					
-				// 	if (is_null($tournament_winners[0])) {
-				// 		mysqli_query($db, "update tournament_status set status='ended' where chat_id=".$chat_id);
-				// 		sendMessage($chat_id, "_No plays were registered on a tournament\._");
-				// 		break;
-				// 	} else {
-				// 		mysqli_query($db, "update tournament_status set status='ended' where chat_id=".$chat_id);
-				// 	}
+					if (is_null($tournament_winners[0])) {
+						mysqli_query($db, "update tournament_status set status='ended' where chat_id=".$chat_id);
+						sendMessage($chat_id, "_No plays were registered on a tournament\._");
+						break;
+					} else {
+						mysqli_query($db, "update tournament_status set status='ended' where chat_id=".$chat_id);
+					}
 	
-				// 	foreach ($tournament_winners as $key => $value) {
-				// 		$sum[$key] = $tournament_winners[$key]['football_1']+$tournament_winners[$key]['football_2']+$tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
-				// 		$goals[$key] = $tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
-				// 		$points_sum[$key] = $tournament_winners[$key]['football_3']+($tournament_winners[$key]['football_4']*2)+($tournament_winners[$key]['football_5']*3);
-				// 		$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$chat_id.'&user_id='.$tournament_winners[$key]['user_id']), TRUE);
-				// 		$members[$key] = $member['result']['user']['first_name'];
-				// 		switch ($key) {
-				// 			case 0:
-				// 				$display_tournament_result .= "🥇*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-				// 				break;
+					foreach ($tournament_winners as $key => $value) {
+						$sum[$key] = $tournament_winners[$key]['football_1']+$tournament_winners[$key]['football_2']+$tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
+						$goals[$key] = $tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
+						$points_sum[$key] = $tournament_winners[$key]['football_3']+($tournament_winners[$key]['football_4']*2)+($tournament_winners[$key]['football_5']*3);
+						$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$chat_id.'&user_id='.$tournament_winners[$key]['user_id']), TRUE);
+						$members[$key] = $member['result']['user']['first_name'];
+						switch ($key) {
+							case 0:
+								$display_tournament_result .= "🥇*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+								break;
 			
-				// 			case 1:
-				// 				$display_tournament_result .= "🥈*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-				// 				break;
+							case 1:
+								$display_tournament_result .= "🥈*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+								break;
 							
-				// 			case 2:
-				// 				$display_tournament_result .= "🥉*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-				// 				break;
-				// 		}
-				// 	}
+							case 2:
+								$display_tournament_result .= "🥉*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+								break;
+						}
+					}
 
 					
 	
-				// 	sendMessage($chat_id, $display_tournament_result_start.$display_tournament_result."\nCongratulations\!");
-				// 	break;
+					sendMessage($chat_id, $display_tournament_result_start.$display_tournament_result."\nCongratulations\!");
+					break;
 				
 			}		
 		} else {
@@ -1568,34 +1568,34 @@ if ($message == '/last_tournament' || $message == '/last_tournament@dicestatbot'
 				sendMessage($chat_id, $display_tournament_result_start.$display_tournament_result."\nCongratulations\!");
 				break;
 
-			// case 'football':
-			// 	$display_tournament_result_start = "Last tournament was on ".strtr($tournament[0]['last_ran'], $markdownify_array)."\n\nOut of ".$tournament[0]['count']." ⚽ kicks, our winners were:\n";
+			case 'football':
+				$display_tournament_result_start = "Last tournament was on ".strtr($tournament[0]['last_ran'], $markdownify_array)."\n\nOut of ".$tournament[0]['count']." ⚽ kicks, our winners were:\n";
 	
-			// 	$tournament_winners = mysqli_fetch_all(mysqli_query($db, "select user_id, football_1, football_2, football_3, football_4, football_5 from football_tournament_stats where chat_id=".$chat_id." order by football_4+(football_5*2) DESC LIMIT 3"), MYSQLI_ASSOC);
+				$tournament_winners = mysqli_fetch_all(mysqli_query($db, "select user_id, football_1, football_2, football_3, football_4, football_5 from football_tournament_stats where chat_id=".$chat_id." order by football_4+(football_5*2) DESC LIMIT 3"), MYSQLI_ASSOC);
 	
-			// 	foreach ($tournament_winners as $key => $value) {
-			// 		$sum[$key] = $tournament_winners[$key]['football_1']+$tournament_winners[$key]['football_2']+$tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
-			// 		$goals[$key] = $tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
-			// 		$points_sum[$key] = $tournament_winners[$key]['football_3']+($tournament_winners[$key]['football_4']*2)+($tournament_winners[$key]['football_5']*3);
-			// 		$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$chat_id.'&user_id='.$tournament_winners[$key]['user_id']), TRUE);
-			// 		$members[$key] = $member['result']['user']['first_name'];
-			// 		switch ($key) {
-			// 			case 0:
-			// 				$display_tournament_result .= "🥇*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-			// 				break;
+				foreach ($tournament_winners as $key => $value) {
+					$sum[$key] = $tournament_winners[$key]['football_1']+$tournament_winners[$key]['football_2']+$tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
+					$goals[$key] = $tournament_winners[$key]['football_3']+$tournament_winners[$key]['football_4']+$tournament_winners[$key]['football_5'];
+					$points_sum[$key] = $tournament_winners[$key]['football_3']+($tournament_winners[$key]['football_4']*2)+($tournament_winners[$key]['football_5']*3);
+					$member = json_decode(file_get_contents($GLOBALS['api'].'/getChatMember?chat_id='.$chat_id.'&user_id='.$tournament_winners[$key]['user_id']), TRUE);
+					$members[$key] = $member['result']['user']['first_name'];
+					switch ($key) {
+						case 0:
+							$display_tournament_result .= "🥇*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+							break;
 		
-			// 			case 1:
-			// 				$display_tournament_result .= "🥈*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-			// 				break;
+						case 1:
+							$display_tournament_result .= "🥈*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+							break;
 						
-			// 			case 2:
-			// 				$display_tournament_result .= "🥉*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
-			// 				break;
-			// 		}
-			// 	}
+						case 2:
+							$display_tournament_result .= "🥉*".strtr($members[$key], $markdownify_array)."* with ". $goals[$key] ." goals \(".$tournament_winners[$key]['football_5']." nines\), *". $points_sum[$key] ."* total points\n";
+							break;
+					}
+				}
 	
-			// 	sendMessage($chat_id, $display_tournament_result_start.$display_tournament_result."\nCongratulations\!");
-			// 	break;
+				sendMessage($chat_id, $display_tournament_result_start.$display_tournament_result."\nCongratulations\!");
+				break;
 			
 		}
 	}
